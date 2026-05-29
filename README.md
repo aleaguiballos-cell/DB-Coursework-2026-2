@@ -477,4 +477,22 @@ Para ingresar al sistema con privilegios totales de administrador y evaluar el f
 🔗 Enlaces
 * **Código Fuente:** [Repositorio Notaría 105](https://github.com/s06008525-max/notaria-105)
 * **Demo en Vivo:** [notaria105](http://roberto.notario@notaria105.com)
-  
+  ---
+
+## Capturas de pantalla
+
+**Login**
+
+<img src="login.png" alt="Pantalla de inicio de sesión" loading="lazy" width="800">
+
+**Registro de usuario**
+
+<img src="registro.png" alt="Formulario de registro" loading="lazy" width="800">
+
+**Formulario de recepción**
+
+<img src="formulario.png" alt="Formulario de recepción de productos" loading="lazy" width="800">
+
+**Panel de administración**
+
+<img src="administrador.png" alt="Panel de administración" loading="lazy" width="800">
