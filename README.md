@@ -477,4 +477,36 @@ Para ingresar al sistema con privilegios totales de administrador y evaluar el f
 🔗 Enlaces
 * **Código Fuente:** [Repositorio Notaría 105](https://github.com/s06008525-max/notaria-105)
 * **Demo en Vivo:** [notaria105](http://roberto.notario@notaria105.com)
-  
+
+# Proyecto 11 Refaccionaria Leo 🚗
+
+## 👥 Equipo de Desarrollo
+* **Martinez Marin Nahum**
+* **Miranda Arredondo Miguel Angel**
+
+## 💡 ¿De qué trata este proyecto?
+Este proyecto consiste en un sitio web de comercio electrónico para una refaccionaria, diseñado para entornos de producción. Permite la gestión de usuarios, control de inventario y procesamiento de pedidos, ofreciendo una experiencia fluida tanto para el cliente como para el administrador.
+
+## ✨ Funcionalidades Principales
+* **Registro y Autenticación:** Sistema seguro de login para clientes y administradores.
+* **Gestión de Inventario:** Panel de control para agregar, editar y monitorear el stock de refacciones.
+* **Procesamiento de Pedidos:** Carrito de compras y pasarela de pagos integrada.
+* **Atención al Cliente:** Canales de contacto directo con la empresa.
+
+## 🛠️ Tecnologías Utilizadas
+* **Frontend:** HTML5, Tailwind CSS, JavaScript (Vanilla).
+* **Backend:** PHP (PDO).
+* **Base de Datos:** PostgreSQL.
+* **Infraestructura:** XAMPP (Local), Ngrok (Tunneling), GitHub Pages.
+
+<details>
+<summary>🖼️ Ver capturas de pantalla</summary>
+<img src="https://github.com/Nahum1802/Refaccionaria-Leo/blob/main/IMG/1.png" alt="Imagen principal de la Pagina" loading="lazy" width="500">
+<img src="https://github.com/Nahum1802/Refaccionaria-Leo/blob/main/IMG/2.png" alt="Contactanos" loading="lazy" width="500">
+<img src="https://github.com/Nahum1802/Refaccionaria-Leo/blob/main/IMG/3.png" alt="Productos" loading="lazy" width="500">
+<img src="https://github.com/Nahum1802/Refaccionaria-Leo/blob/main/IMG/4.png" alt="Ventana del administrador" loading="lazy" width="500">
+</details>
+
+## 🔗 Enlaces de Interés
+* [Repositorio en GitHub](https://github.com/Nahum1802/Refaccionaria-Leo)
+* [Sitio Web en Vivo](https://nahum1802.github.io/Refaccionaria-Leo/)
