@@ -1022,10 +1022,9 @@ Sistema web de registro y control de recepción de productos para la empresa **C
 
 | Usuario | Contraseña | Rol |
 |---|---|---|
-| `Ricardo` | `Ricardo123!` | Operativo |
+| `2` | `Aguilucho5000$` | Administrador |
 
 3. Llenar el formulario de recepción y dar clic en **Guardar**
-4. Para acceder al panel admin, iniciar sesión con una cuenta de rol `admin`
 
 ### Opción 2 — Ejecución local
 
