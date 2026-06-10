@@ -43,8 +43,8 @@ Plataforma web tipo red social enfocada en lectores, donde los usuarios pueden r
 
 | | |
 |---|---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/3683878c-1592-4f2a-894e-cd170b474878" alt="Vista principal de Booksnexus" width="800"/> | |
-| <img loading = "lazy" width="400" alt="Login" src="https://github.com/user-attachments/assets/a23f5224-c830-419d-990c-65331520df5f" /> | |
+| <img loading="lazy" src="https://github.com/user-attachments/assets/3683878c-1592-4f2a-894e-cd170b474878" alt="Vista principal de Booksnexus" width="800"/> 
+| <img loading = "lazy" width="800" alt="Login" src="https://github.com/user-attachments/assets/a23f5224-c830-419d-990c-65331520df5f" /> 
   <img loading ="lazy" width="800" alt="Perfil de usuario" src="https://github.com/user-attachments/assets/a7d1700a-7887-4c79-87ad-92082ed4bbe7" />
 </details>
 
@@ -61,6 +61,8 @@ Plataforma web tipo red social enfocada en lectores, donde los usuarios pueden r
 Código Fuente Backend: [Repositorio Backend](https://github.com/Diegocstln/booksnexus-back)
 Código Fuente Frontend: [Repositorio Frontend](https://github.com/Diegocstln/mi-proyecto-bd)
 Demo en Vivo: [Booksnexus Web](https://diegocstln.github.io/mi-proyecto-bd/)
+Para el acceso con las teclas CTRL + SHIFT + A
+Admin de chocolate - contraseña: booksnexus2026
 
 ## Proyecto 2: DestinyCafe (Sistema de Gestión para Cafetería Artesanal)
 
