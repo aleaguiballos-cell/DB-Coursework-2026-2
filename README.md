@@ -1147,7 +1147,7 @@ http://127.0.0.1:8000
 
 ## Carniceria la Ideal 
 
-**Estudiantes:** Alejandro Aguilera Ceballos, José Ángel Malvaez Flores, Gomez Belmont Wendy Nathaly 
+**Estudiantes:** Alejandro Aguilera Ceballos., José Ángel Malvaez Flores, Gomez Belmont Wendy Nathaly 
 
 **Asignatura:** Bases de Datos 2026-2  
 **URL del sistema:** https://carnicerialaidealescom1.page.gd/CARNES/Login.html
