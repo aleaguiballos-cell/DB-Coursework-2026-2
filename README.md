@@ -1875,7 +1875,7 @@ Sistema web de registro y control de recepción de productos para la empresa **C
 **Login**
 
 <<<<<<< HEAD
-<img src="https://github.com/aleaguiballos-cell/ProyectoBD2/blob/main/screenshot/login.png" alt="Pantalla de inicio de sesión" loading="lazy" width="800">
+<img src="https://github.com/aleaguiballos-cell/ProyectoBD2/blob/main/screenshot/login.png  " alt="Pantalla de inicio de sesión" loading="lazy" width="800">
 =======
 <img src="screenshots/login.png" alt="Pantalla de inicio de sesión" loading="lazy" width="800">
 >>>>>>> 159bdfdb79199a95953e1d9339e80767c7036dd8
