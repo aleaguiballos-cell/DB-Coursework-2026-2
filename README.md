@@ -1739,11 +1739,7 @@ http://127.0.0.1:8000
 
 ## Carniceria la Ideal 
 
-<<<<<<< HEAD
 **Estudiantes:** Alejandro Aguilera Ceballos, José Ángel Malvaez Flores, Gomez Belmont Wendy Nathaly 
-=======
-**Estudiantes:** Alejandro Aguilera Ceballos., José Ángel Malvaez Flores, Gomez Belmont Wendy Nathaly 
->>>>>>> 159bdfdb79199a95953e1d9339e80767c7036dd8
 
 **Asignatura:** Bases de Datos 2026-2  
 **URL del sistema:** https://carnicerialaidealescom1.page.gd/CARNES/Login.html
@@ -1874,41 +1870,25 @@ Sistema web de registro y control de recepción de productos para la empresa **C
 
 **Login**
 
-<<<<<<< HEAD
 <img src="https://github.com/aleaguiballos-cell/ProyectoBD2/blob/main/screenshot/login.png  " alt="Pantalla de inicio de sesión" loading="lazy" width="800">
-=======
-<img src="screenshots/login.png" alt="Pantalla de inicio de sesión" loading="lazy" width="800">
->>>>>>> 159bdfdb79199a95953e1d9339e80767c7036dd8
 
 ---
 
 **Registro de usuario**
 
-<<<<<<< HEAD
 <img src="https://github.com/aleaguiballos-cell/ProyectoBD2/blob/main/screenshot/Formulario.png" alt="Formulario de registro de nuevos usuarios" loading="lazy" width="800">
-=======
-<img src="screenshots/registro.png" alt="Formulario de registro de nuevos usuarios" loading="lazy" width="800">
->>>>>>> 159bdfdb79199a95953e1d9339e80767c7036dd8
 
 ---
 
 **Formulario de recepción**
 
-<<<<<<< HEAD
 <img src="https://github.com/aleaguiballos-cell/ProyectoBD2/blob/main/screenshot/registro.png" alt="Formulario de recepción de productos" loading="lazy" width="800">
-=======
-<img src="screenshots/formulario.png" alt="Formulario de recepción de productos" loading="lazy" width="800">
->>>>>>> 159bdfdb79199a95953e1d9339e80767c7036dd8
 
 ---
 
 **Panel de administración**
 
-<<<<<<< HEAD
 <img src="https://github.com/aleaguiballos-cell/ProyectoBD2/blob/main/screenshot/aministrador" alt="Panel de administración" loading="lazy" width="800">
-=======
-<img src="screenshots/administrador.png" alt="Panel de administración" loading="lazy" width="800">
->>>>>>> 159bdfdb79199a95953e1d9339e80767c7036dd8
 
 ---
 
@@ -1919,7 +1899,6 @@ Sistema web de registro y control de recepción de productos para la empresa **C
 | 🌐 Sistema en línea | [Abrir sistema](https://carnicerialaidealescom1.page.gd/CARNES/Login.html) |
 | 💻 Código fuente | [Ver en GitHub](https://github.com/aleaguiballos-cell/ProyectoBD2) |
 | 🗄️ Base de datos | [infinityfree] (https://php-myadmin.net/db_structure.php?db=if0_41904449_carniceria)  |
-<<<<<<< HEAD
 
 
 ## Proyecto 50: Barber Cerdas (Sistema de gestión de citas)
@@ -2262,5 +2241,3 @@ Contraseña: ferreteriatico
 ## Modelo relacional extendido 
 
 <img src="https://github.com/user-attachments/assets/32c3280e-5b39-4308-bb83-3c7962a6eee4" loading="lazy" width="900">
-=======
->>>>>>> 159bdfdb79199a95953e1d9339e80767c7036dd8
