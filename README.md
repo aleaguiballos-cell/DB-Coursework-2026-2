@@ -41,11 +41,11 @@ Plataforma web tipo red social enfocada en lectores, donde los usuarios pueden r
 <details>
 <summary>🖼️ Ver capturas de pantalla</summary>
 
-| | |
-|---|---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/3683878c-1592-4f2a-894e-cd170b474878" alt="Vista principal de Booksnexus" width="800"/> | |
-| <img loading = "lazy" width="400" alt="Login" src="https://github.com/user-attachments/assets/a23f5224-c830-419d-990c-65331520df5f" /> | |
-  <img loading ="lazy" width="800" alt="Perfil de usuario" src="https://github.com/user-attachments/assets/a7d1700a-7887-4c79-87ad-92082ed4bbe7" />
+| |
+|---|
+| <img loading="lazy"  alt="Login" width="800" src="https://github.com/user-attachments/assets/9f8b8d01-2880-4773-ac7e-0f6ee0bae7c8"/> | 
+| <img loading = "lazy" width="800" alt="Perfil de usuario" src="https://github.com/user-attachments/assets/6e9c99e6-8039-409f-a336-74028e68fe78" /> | 
+|  <img loading ="lazy" width="800" alt="Vista principal" src="https://github.com/user-attachments/assets/1b93c8fe-d090-4b01-98a9-a35d4af7d36e" />|
 </details>
 
 ### ✨ Funcionalidades principales
@@ -59,8 +59,14 @@ Plataforma web tipo red social enfocada en lectores, donde los usuarios pueden r
 
 ### 🔗 Enlaces
 Código Fuente Backend: [Repositorio Backend](https://github.com/Diegocstln/booksnexus-back)
+
 Código Fuente Frontend: [Repositorio Frontend](https://github.com/Diegocstln/mi-proyecto-bd)
+
 Demo en Vivo: [Booksnexus Web](https://diegocstln.github.io/mi-proyecto-bd/)
+
+Para el acceso administrador con las teclas CTRL + SHIFT + A
+
+Admin de chocolate - contraseña: booksnexus2026
 
 ## Proyecto 2: DestinyCafe (Sistema de Gestión para Cafetería Artesanal)
 
@@ -78,7 +84,7 @@ Sistema web integral para la gestión de una cafetería artesanal ubicada en Ref
 | | |
 |---|---|
 | <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/960a0a8029eea604e10949a234bdaa3712193b60/Principal.png" alt="Vista principal de DestinyCafe - Página de inicio" width="800"/> | |
-| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/960a0a8029eea604e10949a234bdaa3712193b60/Areas.png" alt="Sección de áreas: Barra, Cocina y Panadería" width="400"/> | <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/960a0a8029eea604e10949a234bdaa3712193b60/Inventario.png" alt="Formulario de registro de insumos" width="400"/> |
+| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/960a0a8029eea604e10949a234bdaa3712193b60/Areas.png" alt="Sección de áreas: Barra, Cocina y Panadería" width="800"/> | <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/960a0a8029eea604e10949a234bdaa3712193b60/Inventario.png" alt="Formulario de registro de insumos" width="800"/> |
 | <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/960a0a8029eea604e10949a234bdaa3712193b60/Ventas.png" alt="Formulario de registro de ventas." width="800"/> | |
 </details>
 
@@ -150,68 +156,43 @@ Aplicación web diseñada para la gestión integral de un restaurante. Permite l
 * **Hosting:** GitHub Pages
 * **APIs Externas:** QR Server API
 
----
+
 
 ## 💻 Funcionalidades y capturas de pantalla
 
 El sistema está dividido en secciones interactivas que se actualizan de forma asíncrona mediante llamadas a la API REST de Supabase:
 
 * **🛒 Órdenes (Punto de Venta):** Permite abrir nuevas órdenes asignando a un empleado responsable. Cuenta con un carrito de compras interactivo que calcula subtotales y el total de la orden en tiempo real.
-  <details>
-  <summary>🖼️ Ver captura de Órdenes</summary>
-  <br>
-  <img loading="lazy" src="https://media.discordapp.net/attachments/1474619815225196635/1509423354266779658/image.png?ex=6a191f8b&is=6a17ce0b&hm=33e1addec4938fbb265aec06c4a3f7787df94a08a9686d7c664451baf2a9ee03&=&format=webp&quality=lossless&width=1589&height=800" alt="Módulo de Órdenes" width="800"/>
-  </details>
 
 * **🍽️ Menú:** Visualización del catálogo de alimentos filtrable por categorías. Permite registrar nuevos platillos indicando nombre, precio y categoría.
-  <details>
-  <summary>🖼️ Ver captura del Menú</summary>
-  <br>
-  <img loading="lazy" src="https://media.discordapp.net/attachments/1474619815225196635/1509423544562483310/image.png?ex=6a191fb8&is=6a17ce38&hm=436c9f43ca7d0159277702c2c680e614c2c00bcfadaddebc4d95e4087b0fed0d&=&format=webp&quality=lossless&width=1660&height=800" alt="Catálogo del Menú" width="800"/>
-  </details>
 
 * **🧺 Inventario:** Control estricto de insumos. Calcula las existencias reales sumando las entradas y muestra alertas de color (Agotado, Bajo, OK) basadas en un stock mínimo definido.
-  <details>
-  <summary>🖼️ Ver captura de Inventario</summary>
-  <br>
-  <img loading="lazy" src="https://media.discordapp.net/attachments/1474619815225196635/1509423719779401808/image.png?ex=6a191fe2&is=6a17ce62&hm=3a9a76046e974b6e5c57b51fa6d128bbc0103e54679b561d0a8679244c220c4e&=&format=webp&quality=lossless&width=1681&height=800" alt="Control de Inventario" width="800"/>
-  </details>
 
 * **👨‍💼 Personal:** Gestión de la plantilla de empleados. Permite registrar altas de meseros con información de contacto, asignación de rol y turno (Mañana, Tarde, Noche).
-  <details>
-  <summary>🖼️ Ver captura de Personal</summary>
-  <br>
-  <img loading="lazy" src="https://media.discordapp.net/attachments/1474619815225196635/1509423845696868402/image.png?ex=6a192000&is=6a17ce80&hm=e8ab1bf4a85c2df42db5d56901d8d05f34f9d150072d4eebafbdd8102caab83c&=&format=webp&quality=lossless&width=1684&height=800" alt="Gestión de Personal" width="800"/>
-  </details>
 
-* **🏷️ Mesas:** Plano virtual con 12 mesas. Muestra visualmente el estado (Libre / Ocupada) y un cronómetro en tiempo real con los minutos transcurridos desde que la mesa fue ocupada.
-  <details>
-  <summary>🖼️ Ver captura de Mesas</summary>
-  <br>
-  <img loading="lazy" src="https://media.discordapp.net/attachments/1474619815225196635/1509423973627072552/image.png?ex=6a19201f&is=6a17ce9f&hm=a949744c6e7f5a0e13c710a66aa8f2f21e57b6f40be3fe0fdc68a0e52b40bc03&=&format=webp&quality=lossless&width=1686&height=800" alt="Mapa de Mesas" width="800"/>
-  </details>
+* **🏷️ Mesas:** Plano virtual con 10 mesas. Muestra visualmente el estado (Libre / Ocupada) y un cronómetro en tiempo real con los minutos transcurridos desde que la mesa fue ocupada.
 
 * **💳 Caja:** Módulo de liquidación de cuentas pendientes. Permite dividir la cuenta entre varios comensales, seleccionar el método de pago (Efectivo, Tarjeta, Transferencia) y generar un ticket de compra con formato de impresión.
-  <details>
-  <summary>🖼️ Ver captura de Caja</summary>
-  <br>
-  <img loading="lazy" src="https://media.discordapp.net/attachments/1474619815225196635/1509424073187528855/image.png?ex=6a192036&is=6a17ceb6&hm=119e966a3234355dc6141f3c43056d5d7d0e65614180200af21d2d4af6924e40&=&format=webp&quality=lossless&width=1860&height=629" alt="Módulo de Caja y Cobro" width="800"/>
-  </details>
 
 * **⭐ Reseñas y Código QR:** Generador dinámico de códigos QR únicos por mesa (consumiendo la API de `qrserver`). Los clientes pueden escanearlo para acceder a una vista pública y dejar una calificación de 1 a 5 estrellas junto con comentarios.
-  <details>
-  <summary>🖼️ Ver captura de Reseñas</summary>
-  <br>
-  <img loading="lazy" src="https://media.discordapp.net/attachments/1474619815225196635/1509424191273697380/image.png?ex=6a192052&is=6a17ced2&hm=30177e2b70c68348ee0125c5094df35dd33b45387c4573dc27c0081ad8701a32&=&format=webp&quality=lossless&width=1699&height=800" alt="Generador QR y Reseñas" width="800"/>
-  </details>
 
 * **🔔 Notificaciones Inteligentes:** Un servicio en segundo plano revisa automáticamente (cada 60 segundos) el sistema para alertar sobre ingredientes con stock bajo y órdenes que no han sido cobradas.
-  <details>
-  <summary>🖼️ Ver captura de Notificaciones</summary>
-  <br>
-  <img loading="lazy" src="https://media.discordapp.net/attachments/1474619815225196635/1509424316297777242/image.png?ex=6a192070&is=6a17cef0&hm=ac33fe06fd7a3c3c25245662424b37230bf2bb975717ef7f1841426492326995&=&format=webp&quality=lossless&width=499&height=930" alt="Panel de Notificaciones" width="400"/>
-  </details>
 
+<details>
+<summary>🖼️ Ver capturas de pantalla</summary>
+
+ <img loading="lazy"  width="800" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/1.png?raw=true"/>  
+ <img loading = "lazy" width="800" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/2.png?raw=true" />  
+ <img loading="lazy"  width="800" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/3.png?raw=true"/>  
+ <img loading = "lazy" width="800" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/4.png?raw=true" /> 
+ <img loading="lazy"  width="800" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/5.png?raw=true"/>  
+ <img loading = "lazy" width="800" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/6.png?raw=true" />  
+ <img loading = "lazy" width="800" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/7.png?raw=true" />  
+ <img loading="lazy"  width="800" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/8.png?raw=true"/>  
+ <img loading = "lazy" width="800" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/9.png?raw=true" />  
+</details>
+
+-----
 
 ### 🔗 Enlaces
 Código Fuente: [Repositorio](https://github.com/aeiou520814-del/abc)
@@ -317,7 +298,20 @@ backend/
     ├── proyectista.py            # Presupuesto por obra, Costos
     └── public.py                 # Endpoints públicos (mapa ciudadano)
 ```
+ # Testeo del Proyecto
+
+## 🚀 Funcionalidad: 
  
+De manera general, puedes acceder a cada uno de los roles predispustos, pero no puedes ralizar acciones directas sobre la base de datos. Esto con algunos usuarios de prueba: 
+
+### Usuarios de prueba:
+
+| Rol | Usuario | Contraseña |
+| :--- | :--- | :--- |
+| Director | demo_director | DemoDir2026! |
+| Supervisor | demo_supervisor | DemoSup2026! |
+| Secretaria | demo_secretaria | DemoSec2026! |
+| Proyectista | demo_proyectista | DemoPry2026! |
 ---
 
 <details>
@@ -336,6 +330,28 @@ backend/
 
 </details>
 
+<details>
+<summary>🖼️ Ver Diagramas</summary>
+
+## Diagrama Relacional
+
+| |
+|---|
+| <img src="https://github.com/user-attachments/assets/28638031-7d27-42f3-b2b1-c932fb207ef6" alt="Login" width="800"/> |
+
+
+
+## Diagrama Entidad Rel. Etendido
+
+
+| |
+|---|
+| <img src="https://github.com/user-attachments/assets/303c37e3-4fe9-4cfe-9b74-7f442f51541a" alt="Login" width="800"/> |
+
+
+</details>
+---
+
 ### 🔗 Enlaces
 * **Código Fuente:** [Repositorio en GitHub](https://github.com/Urigc/Obras_publicas/tree/TestDefinitivo)
 * **Demo en Vivo (GitHub Pages):** [Página](https://urigc.github.io/Obras_publicas/)
@@ -345,43 +361,510 @@ backend/
 
 
 ## Proyecto 6: VinylVibes(Venta de vinilos)
-Plataforma web de venta de discos de vinilo, donde los usuarios pueden buscar entre millones de álbumes, ver información detallada de cada disco incluyendo portada, historia y video, y realizar compras. El catálogo se alimenta en tiempo real desde Discogs y se enriquece automáticamente con datos de MusicBrainz y Last.fm.
 
-### Tecnologías
-* **Backend:** Node.js con Express.js
-* **Base de Datos:** PostgreSQL (Neon)
-* **Frontend:** HTML, CSS y JavaScript vanilla
-* **Despliegue:** Render y GitHub Pages
-* **APIs externas:** Discogs, MusicBrainz, Last.fm, YouTube, Cover Art Archive
+## Stack
+
+### Backend
+| Tecnología | Uso |
+|---|---|
+| Node.js + Express | Servidor y endpoints |
+| Prisma | ORM para PostgreSQL |
+| PostgreSQL (Neon) | Base de datos |
+| Redis (Render) | Caché de respuestas |
+| JWT + bcrypt | Autenticación |
+| express-rate-limit | Protección contra abuso |
+| ioredis | Cliente de Redis |
+
+### Frontend
+| Tecnología | Uso |
+|---|---|
+| HTML5 | Estructura de las páginas |
+| CSS3 | Estilos y variables de diseño |
+| JavaScript (vanilla) | Lógica del frontend |
+| Google Fonts | Tipografías (Playfair Display, DM Sans, DM Mono) |
+| localStorage | Sesión del usuario y carrito |
+
+---
+
+## Estructura de archivos
+
+```
+vinylvibes-backend/
+├── index.js              → servidor principal y endpoints
+├── package.json          → dependencias
+└── prisma/
+    └── schema.prisma     → esquema de la base de datos
+
+vinylvibes-frontend/
+├── index.html     → página principal: catálogo, búsqueda, géneros, carrito
+├── login.html     → inicio de sesión y registro de cuenta
+├── admin.html     → panel de administración (usuarios y ventas)
+├── script.js      → lógica del catálogo, modal de detalle, carrito y checkout
+├── login.js       → lógica de autenticación y registro
+├── admin.js       → lógica del panel admin
+└── style.css      → estilos globales y variables de diseño
+```
+
+---
+
+## Instalación local
+
+### Backend
+
+```bash
+git clone https://github.com/akibanks/api-tienda-vinilos.git
+cd vinylvibes-backend
+npm install        # también ejecuta prisma generate (postinstall)
+# Crear archivo .env con las variables de entorno
+node index.js
+```
+
+Para aplicar migraciones de base de datos:
+
+```bash
+npx prisma migrate deploy
+```
+
+### Frontend
+
+```bash
+git clone https://github.com/akibanks/tienda_musica_web.git
+cd vinylvibes-frontend
+```
+
+No requiere build ni dependencias. Abre `index.html` en el navegador o usa un servidor local:
+
+```bash
+npx serve .
+# o
+python -m http.server 8080
+```
+
+> Para que el frontend funcione correctamente necesita el backend corriendo.
+
+---
+
+## Variables de entorno (Backend)
+
+Configurar en Render → Environment o en `.env` para desarrollo local:
+
+```env
+DATABASE_URL      = postgresql://...@neon.tech/neondb
+JWT_SECRET        = clave_secreta_larga
+CORS_ORIGIN       = https://api-tienda-vinilos.onrender.com
+REDIS_URL         = redis://red-...
+DISCOGS_TOKEN     = token_de_discogs
+YOUTUBE_API_KEY   = clave_de_youtube
+LASTFM_API_KEY    = clave_de_lastfm
+```
+
+> `CORS_ORIGIN` acepta múltiples dominios separados por coma.  
+> El servidor no arranca si `JWT_SECRET` no está definido.
+
+---
+
+## Cuenta de demostración
+
+| Campo | Valor |
+|---|---|
+| Usuario | `admin_chocolate` |
+| Contraseña | `chocolate` |
+
+---
+
+## Páginas (Frontend)
+
+### index.html — Catálogo principal
+
+Página de inicio de la tienda. Contiene:
+
+- Carrusel de discos recientes del año actual.
+- Buscador con debounce (500ms) que consulta la API de Discogs.
+- Filtro de géneros (Rock, Jazz, Pop, Electronic, Hip Hop, Classical, Blues, Folk, Latin, Reggae).
+- Catálogo con paginación.
+- Modal de detalle del disco con historia (Last.fm), video (YouTube) y recomendaciones personalizadas.
+- Carrito de compras con modal de envío y pago.
+- Historial de compras del usuario.
+- Sincronización del carrito entre pestañas del navegador vía evento `storage`.
+
+### login.html — Autenticación
+
+Página de inicio de sesión y registro con dos vistas en una misma pantalla (tabs). Panel decorativo con un vinilo animado en pantallas anchas.
+
+### admin.html — Panel de administración
+
+Accesible solo para usuarios con rol `admin` o `demo`. Contiene:
+
+- Tarjetas de estadísticas: total de usuarios, ventas, ingresos y ventas pendientes.
+- Tabla de usuarios con búsqueda, cambio de rol y eliminación con confirmación.
+- Tabla de ventas con búsqueda, cambio de estado y modal de detalle.
+- Banner de solo lectura visible para cuentas `demo`.
+
+---
+
+## Roles de usuario
+
+| Rol | Descripción | Acceso admin | Puede modificar |
+|---|---|---|---|
+| `cliente` | Rol por defecto al registrarse. Puede comprar y ver su historial. | No | — |
+| `vendedor` | Acceso futuro a gestión de inventario. | No | — |
+| `admin` | Acceso completo: usuarios, ventas y diagnóstico. | Sí | Sí |
+| `demo` | Solo lectura de secciones admin. No puede escribir ni modificar datos. | Sí | No |
+
+---
+
+## Autenticación
+
+El token JWT se guarda en `localStorage` tras el login y se envía en el header `Authorization: Bearer <token>` en cada petición protegida. Duración: 7 días.
+
+| Clave localStorage | Contenido |
+|---|---|
+| `vv_token` | JWT devuelto por el backend |
+| `usuarioLogueado` | Nombre del usuario |
+| `esAdmin` | `"true"` o `"false"` |
+| `esDemo` | `"true"` o `"false"` |
+| `vv_carrito` | Array JSON con los ítems del carrito |
+
+---
+
+## Endpoints
+
+### Auth
+| Método | Ruta | Auth | Descripción |
+|---|---|---|---|
+| POST | `/registro` | — | Crear cuenta |
+| POST | `/login` | — | Iniciar sesión, devuelve JWT |
+
+> Rate limit en auth: máximo 10 intentos cada 15 minutos.
+
+### Catálogo (Discogs)
+| Método | Ruta | Auth | Descripción |
+|---|---|---|---|
+| GET | `/buscar?q=&pagina=` | — | Buscar discos |
+| GET | `/recientes` | — | Discos del año actual |
+| GET | `/genero/:genero?pagina=` | — | Discos por género |
+| GET | `/disco/:id` | — | Detalle de un disco |
+| GET | `/disco/:id/historia` | — | Historia del álbum (Last.fm) |
+| GET | `/disco/:id/video` | — | Video del álbum (YouTube) |
+| GET | `/disco/:id/recomendaciones` | Opcional | Recomendaciones personalizadas si hay token |
+
+### Usuario
+| Método | Ruta | Auth | Descripción |
+|---|---|---|---|
+| POST | `/historial` | [JWT] | Registrar disco visto (máx. 10 por usuario) |
+| GET | `/historial` | [JWT] | Historial de navegación |
+| POST | `/checkout` | [JWT] | Procesar compra (precio calculado en backend) |
+| GET | `/mis-compras` | [JWT] | Historial de compras del usuario |
+
+### Admin
+| Método | Ruta | Auth | Descripción |
+|---|---|---|---|
+| GET | `/admin/usuarios` | [admin, demo] | Listar todos los usuarios |
+| PUT | `/admin/usuarios/:id/rol` | [admin] | Cambiar rol de un usuario |
+| DELETE | `/admin/usuarios/:id` | [admin] | Eliminar usuario |
+| GET | `/admin/ventas` | [admin, demo] | Listar todas las ventas |
+| GET | `/admin/ventas/:id` | [admin, demo] | Detalle de una venta |
+| PUT | `/admin/ventas/:id/estado` | [admin] | Cambiar estado de una venta |
+| GET | `/redis-ping` | [admin, demo] | Diagnóstico de Redis |
+
+---
+
+## Base de datos
+
+```
+usuario           → autenticación y roles
+venta             → órdenes de compra
+linea_venta       → discos por orden (con discogs_id y precio calculado en backend)
+envio             → dirección de envío por orden
+historial_usuario → últimos 10 discos vistos por usuario
+```
+
+<details>
+  <summary>Modelo relacional</summary>
+  <img src="https://github.com/user-attachments/assets/eb826ead-d502-454b-b3a0-a50bd8880af8" alt="Modelo relacional VinylVibes" style="max-width:100%;">
+</details>
+
+<details>
+  <summary>Modelo entidad relacion extendido</summary>
+  <img src="https://github.com/user-attachments/assets/9f8a4410-9c02-4592-b3c1-895f6739d290" alt="Modelo entidad relacion extendido VinylVibes" style="max-width:100%;">
+</details>
+
+---
+
+## Flujo de una compra
+
+1. El usuario agrega discos al carrito en el frontend.
+2. Completa el formulario de envío.
+3. El frontend hace `POST /checkout` con los ítems (sin precio) y los datos de envío.
+4. El backend consulta Discogs para obtener los stats actuales y calcula el precio real.
+5. Se crea la orden en la base de datos con estado `pagada`.
+6. El admin puede actualizar el estado desde el panel.
+
+### Estados posibles de una venta
+
+| Estado | Descripción |
+|---|---|
+| `pendiente` | Orden creada, pago no confirmado |
+| `pagada` | Pago confirmado (estado inicial en el flujo actual) |
+| `enviada` | Orden despachada |
+| `entregada` | Orden recibida por el cliente |
+| `cancelada` | Orden cancelada |
+
+---
+
+## Cálculo de precios
+
+El precio de cada disco se calcula en el backend. El campo `precio` que envíe el cliente es ignorado.
+
+**Precio base por año de lanzamiento:**
+
+| Año | Precio base |
+|---|---|
+| 2000 o posterior | $19.99 |
+| 1980 - 1999 | $29.99 |
+| 1960 - 1979 | $34.99 |
+| Anterior a 1960 | $39.99 |
+| Desconocido | $24.99 |
+
+**Ajuste por popularidad** (ratio want/have en Discogs):
+
+| Ratio | Ajuste |
+|---|---|
+| >= 1.5 (muy deseado) | +40% (max +$15) |
+| >= 0.8 (bastante deseado) | +20% (max +$8) |
+| <= 0.1 (poco deseado) | -15% (max -$5) |
+
+---
+
+## Caché Redis
+
+| Dato | TTL |
+|---|---|
+| Búsquedas | 1 hora |
+| Géneros | 24 horas |
+| Recientes | 24 horas |
+| Detalle disco | 7 días |
+| Historia | 7 días |
+| Video | 7 días |
+| Recomendaciones | 1 hora |
+
+> Si Redis no está disponible, el backend sigue funcionando pero consulta las APIs externas en cada request.
+
+---
+
+## Rate limiting
+
+| Ámbito | Límite |
+|---|---|
+| Global (todas las rutas) | 100 peticiones / minuto |
+| `/registro` y `/login` | 10 intentos / 15 minutos |
+
+---
+
+## APIs externas
+
+| API | Para qué se usa | Rate limit aproximado |
+|---|---|---|
+| Discogs | Búsqueda, detalle y estadísticas de discos | 60 req/min autenticado |
+| Last.fm | Historia del álbum y artistas similares | 5 req/seg |
+| YouTube Data API v3 | Video del álbum | 10,000 unidades/día |
+
+---
+
+## Códigos de error
+
+| Código | Cuándo ocurre |
+|---|---|
+| 400 | Datos faltantes o inválidos en el request |
+| 401 | Token ausente, inválido o expirado |
+| 403 | El rol del usuario no tiene permiso para esa acción |
+| 404 | Recurso no encontrado (disco, venta, usuario) |
+| 409 | Conflicto — por ejemplo, nombre de usuario ya registrado |
+| 429 | Rate limit alcanzado |
+| 500 | Error interno del servidor |
+
+---
+
+## Tipografía y diseño
+
+| Fuente | Uso |
+|---|---|
+| Playfair Display | Títulos principales y elementos decorativos |
+| DM Sans | Texto de interfaz, botones y etiquetas |
+| DM Mono | IDs, fechas, badges y datos técnicos |
+
+El sistema de diseño usa variables CSS definidas en `style.css` (`--bg-surface`, `--text-primary`, `--amber`, `--border-subtle`, etc.) para mantener consistencia entre páginas.
+
+---
+
+## Despliegue
+
+- **Backend:** hospedado en [Render](https://render.com). Configura las variables de entorno en Render → Environment.
+- **Frontend:** desplegado automáticamente en GitHub Pages al hacer push a la rama `main`. No requiere configuración adicional.
+
+---
+
+## Ejemplos de request / response
+
+### POST /registro
+
+```json
+// Request
+{ "nombre_usuario": "juan", "password": "mipassword123" }
+
+// Response 201
+{ "mensaje": "Usuario creado exitosamente." }
+
+// Response 409
+{ "error": "El nombre de usuario ya está en uso." }
+```
+
+### POST /login
+
+```json
+// Request
+{ "nombre_usuario": "juan", "password": "mipassword123" }
+
+// Response 200
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+  "nombre": "juan",
+  "es_admin": false,
+  "es_demo": false
+}
+
+// Response 401
+{ "error": "Credenciales inválidas." }
+```
+
+### POST /checkout
+
+```json
+// Request
+{
+  "items": [
+    {
+      "discogs_id": "1234567",
+      "titulo": "Dark Side of the Moon",
+      "artista": "Pink Floyd",
+      "cantidad": 1
+    }
+  ],
+  "envio": {
+    "nombre_receptor": "Juan Pérez",
+    "calle": "Insurgentes Sur",
+    "numero_ext": "123",
+    "numero_int": "4B",
+    "colonia": "Del Valle",
+    "ciudad": "Ciudad de México",
+    "estado": "CDMX",
+    "codigo_postal": "03100",
+    "referencias": "Edificio azul, portón negro"
+  }
+}
+
+// Response 201
+{ "mensaje": "¡Compra procesada exitosamente!", "id_venta": 42, "total": "29.99" }
+```
+
+---
+
 
 <details>
 <summary>Ver capturas de pantalla</summary>
 
 | | |
 |---|---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/1ad4d892-9777-4b9b-8305-ebe85305cfd8" alt="Página principal de VinylVibes" width="800"/> | |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/4ef93b08-d50d-46b7-9491-7cd907dcb663" alt="Búsqueda de discos" width="400"/> 
-| <img loading="lazy" src="https://github.com/user-attachments/assets/d25a3a1b-95c4-42bd-ba2c-5e856abe432c"" alt="Detalles del Disco" width="800"/> | |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/85bc9a9c-7fed-48f3-bfd0-0ccc9d24ad4c
-" alt="Datos de envío" width="800"/> | |
+| <img loading="lazy" src="https://github.com/user-attachments/assets/b8a28bde-7a63-4fb5-ab29-dae045f5c318" alt="Página principal de VinylVibes" width="800"/> | 
+| <img loading="lazy" src="https://github.com/user-attachments/assets/c698edfe-8f98-4268-9bab-666cf72c7caa" alt="Búsqueda de discos" width="400"/>|
+| <img loading="lazy" src="https://github.com/user-attachments/assets/8769e360-5673-4111-8041-c7813d667014" alt="Seccion de generos musicales" width="400"/>|
+
+| <img loading="lazy" src="https://github.com/user-attachments/assets/8eef01ca-0473-410e-91cd-0c3c221b5f8a" alt="Modal de historia" width="800"/> | 
+| <img loading="lazy" src="https://github.com/user-attachments/assets/84e4ade7-b921-4b01-8299-a5e53cffce40" alt="Modal de Compra" width="800"/> | 
 
 </details>
-
-### Funcionalidades principales
-* Búsqueda en tiempo real contra la API de Discogs
-* Portadas obtenidas automáticamente desde MusicBrainz y Last.fm
-* Historia de cada álbum desde Last.fm o MusicBrainz en cascada
-* Video del álbum embebido desde YouTube
-* API REST para comunicación entre frontend y backend
-* Sistema de caché en PostgreSQL para optimizar consultas repetidas
-* Registro e inicio de sesión de usuarios
-* Carrito de compras y gestión de pedidos
 
 ### 🔗 Enlaces
 Código Fuente Backend: [Repositorio Backend](https://github.com/akibanks/api-tienda-vinilos)
 Código Fuente Frontend: [Repositorio Frontend](https://github.com/akibanks/tienda_musica_web)
 Demo en Vivo: [VinylVibes](https://akibanks.github.io/tienda_musica_web/)
 
+## Contribuir
+
+1. Haz fork del repositorio.
+2. Crea una rama para tu cambio: `git checkout -b feature/nombre-del-cambio`.
+3. Haz commit de tus cambios: `git commit -m "descripción clara del cambio"`.
+4. Abre un Pull Request describiendo qué cambiaste y por qué.
+
+Para reportar un bug, abre un Issue en GitHub con el endpoint afectado, el request que lo reproduce y el error que devuelve.
+
+
+## Equipo 21:🍽️ Sistema de Gestión de Restaurante
+
+Aplicación web full-stack desarrollada para la gestión integral de un restaurante. El sistema permite la administración del menú, control de almacén, gestión de personal, finanzas y cuenta con un mapa  del salón en tiempo real.
+
+## Tecnologías Utilizadas
+* *Frontend:* HTML5, CSS3, JavaScript, Vite
+* *Backend:* PostgreSQL alojado en Supabase
+* *Hosting:* Vercel
+
+---
+
+## Funcionalidades y capturas de pantalla
+
+El sistema está dividido en módulos interactivos que se comunican de forma asíncrona con la base de datos relacional para mantener la información actualizada:
+
+* *🪑 Salón Principal:* Plano visual del establecimiento con posicionamiento de las mesas. Muestra el estado de las 8 mesas (Libre u Ocupada) mediante filtros visuales que reaccionan en tiempo real a los registros de la base de datos, permitiendo abrir cuentas o visualizar pedidos con un clic.
+  <details>
+  <summary>🖼️  Captura del Salón</summary>
+  <br>
+  <img loading="lazy" src="https://github.com/user-attachments/assets/d7517efb-67f0-4e54-8b56-e085099ef7bd" alt="Mapa de Mesas Interactivo" width="800"/>
+  </details>
+
+* *🔐 Acceso y Seguridad:* Sistema de inicio de sesión validado con la base de datos para restringir el acceso según el rol del empleado.
+  <details>
+  <summary>🖼️ Captura de Inicio de Sesión</summary>
+  <br>
+  <img loading="lazy" src="https://github.com/user-attachments/assets/79e6baed-395d-487e-adc1-9ee656bb7223" alt="Login" width="800"/> 
+  </details>
+
+* *📋 Menú y Órdenes:* Catálogo de los platillos y bebidas del restaurante que permite tomar la orden directamente desde la mesa seleccionada, sumando totales al instante.
+  <details>
+  <summary>🖼️ Captura del Menú</summary>
+  <br>
+  <img loading="lazy" src="https://github.com/user-attachments/assets/772de401-0171-49cc-a700-652aa9705093" alt="Módulo de Menú" width="800"/>
+  </details>
+
+* *📦 Almacén:* Módulo para el control de inventario de los insumos y materias primas necesarios para la operación diaria.
+  <details>
+  <summary>🖼️ Captura del Almacén</summary>
+  <br>
+  <img loading="lazy" src="https://github.com/user-attachments/assets/6ab4974e-8ba2-4dec-aaf5-164564c89ed2" alt="Control de Almacén" width="800"/>
+  </details>
+
+* *👥 Personal:* Interfaz para la gestión y registro de los empleados, meseros y administradores del sistema.
+  <details>
+  <summary>🖼️ Captura de Personal</summary>
+  <br>
+  <img loading="lazy" src="https://github.com/user-attachments/assets/607e3ae6-9055-4cc4-9ecf-0015687459aa" alt="Gestión de Personal" width="800"/>
+  </details>
+
+* *📊 Finanzas:* Visualización de los ingresos y control de las cuentas cobradas en el establecimiento.
+  <details>
+  <summary>🖼️ Captura de Finanzas</summary>
+  <br>
+  <img loading="lazy" src="https://github.com/user-attachments/assets/7aa87642-240f-4806-bf7a-f015f8461d57" alt="Módulo de Finanzas" width="800"/>
+  </details>
+
+
+### 🔗 Enlaces del Proyecto
+* *Código Fuente:* [Repositorio en GitHub](https://github.com/samLimsx/proyecto-bases.git)
+* *Demo en Vivo:* [Página Web en Vercel](https://proyecto-bases-snowy.vercel.app/)
+* *Usuario de prueba:*admin@prueba.com
+* *Contraseña*admin
+
+---
+---
 
 ## Proyecto 7: Patitas Sanas - Veterinaria 
 Sistema web para una clínica veterinaria enfocado en realizar citas en línea, control de invetarios, 
@@ -400,19 +883,71 @@ manejo de personal e informacion sobre los servicios proporcionados.
 * Panel administrativo interno para el control de la agenda y expedientes.
 
 <details>
-<summary>🖼️ Ver capturas de pantalla</summary>
-| <img loading="lazy" src="https://github.com/Jaely19/Patitas-Sanas/blob/main/pantallap.png" alt="Vista principal de Veterinaria" width="800"/> | |
-| <img loading="lazy" src="https://github.com/Jaely19/Patitas-Sanas/blob/main/sevicios.png" alt="servicios" width="800"/> |
+<summary>🖼️ Ver Imagenes del Proyecto</summary>
+
+| Pantalla de Inicio |
+|---|
+| <img loading="lazy" src="./fotos/inicio.png" width="800"/> |
+
+| Servicios |
+|---|
+| <img loading="lazy" src="./fotos/servicios.png" width="800"/> |
+
+| Login |
+|---|
+| <img loading="lazy" src="./fotos/login.png" width="800"/> |
+
+| Panel de Citas |
+|---|
+| <img loading="lazy" src="./fotos/cita-1.png" width="800"/> |
+| <img loading="lazy" src="./fotos/cita-2.png" width="800"/> |
+| <img loading="lazy" src="./fotos/cita-3.png" width="800"/> |
+
+| Clientes |
+|---|
+| <img loading="lazy" src="./fotos/cliente.png" width="800"/> |
+
+| Inventario |
+|---|
+| <img loading="lazy" src="./fotos/inv.png" width="800"/> |
+
+| Recepcionista |
+|---|
+| <img loading="lazy" src="./fotos/rec.png" width="800"/> |
+
+| Administrador |
+|---|
+| <img loading="lazy" src="./fotos/admin-1.png" width="800"/> |
+| <img loading="lazy" src="./fotos/admin-2.png" width="800"/> |
+
+| Veterinario |
+|---|
+| <img loading="lazy" src="./fotos/vet.png" width="800"/> |
+
 </details>
 
 ### Usuarios:
-*Usuario de Prueba: Correo: Prueba1@gmail.com Contraseña: 123456789
-*Admin: Correo: admin@gmail.com Contraseña: Admin2026
+### Usuario de Prueba: 
+* Correo: usuariodemo@gmail.com
+* Contraseña: usuario1234
+
+### Recepcionista: 
+* Correo: marirep@gmail.com
+* Contraseña: Spam18091809.
+
+### Veterinario
+* Correo: veterinario@demo.com
+* Contraseña: vet123
+
+### Admin: 
+Correo: admin@patitassanas.com
+Contraseña: Admin1234
 
 ### 🔗 Enlaces
-Código Fuente: [Repositorio GitHub](https://github.com/Jaely19/Patitas-Sanas)
-Demo en Vivo: [Patitas Sanas Web](https://patitas-sanas.vercel.app)
+* Código Fuente: [Repositorio GitHub](https://github.com/Jaely19/Patitas-Sanas)
+* Demo en Vivo: [Patitas Sanas Web](https://patitas-sanas.vercel.app)
 
+--- 
 
 ## Proyecto 8: Scynara - Sistema de Gestión para Comercio Minorista
 Sistema web full-stack para la gestión de una tienda o cadena de sucursales, con control de inventario, proveedores, productos, ventas, clientes y usuarios/empleados.
@@ -441,6 +976,14 @@ Sistema web full-stack para la gestión de una tienda o cadena de sucursales, co
 Código Fuente: Frontend [Repositorio](https://github.com/scynara09-hue/Scynara-Frontend)
 Código Fuente: Backend [Repositorio](https://github.com/scynara09-hue/Scynara-Backend)
 Demo en Vivo: [Página Web](https://scynara-frontend.vercel.app/)
+### 🔑 Credenciales de Acceso (Para Evaluación)
+
+- **Correo:** admin@scynara.com
+- **Contraseña:** aAdmin1234!
+
+> ⚠️ Este usuario es de solo lectura. No tiene privilegios para eliminar ni modificar datos, con el fin de no dañar el proyecto en producción.
+
+--- 
   
 ## Proyecto 9: Data Warehouse CDMX - Consumo de Agua y Clima
 Proyecto de Data Warehouse para analizar la correlación entre el consumo de agua y las condiciones climáticas en la Ciudad de México durante 2019.
@@ -560,13 +1103,9 @@ Sistema integral para la gestión de inventario, ventas y distribuicion de abarr
 
 <details>
 <summary>🖼️ Ver capturas de pantalla</summary>
-
-| | |
-|---|---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/4e5635a8-4fe3-4789-a8aa-ad3ef39d7300" alt="Pantalla de login" width="800"/> | |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/9317424e-674d-4877-a1bd-7e6cb287e254" alt="Pantalla de inicio admin" width="800"/> | |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/1d013572-cf13-4fa7-bd7a-c60fc9e334eb" alt="Detalles tabla trabajador" width="800"/> | |
-
+<img src="https://github.com/user-attachments/assets/4e5635a8-4fe3-4789-a8aa-ad3ef39d7300" alt="Pantalla de login" loading="lazy" width="800">
+<img src="https://github.com/user-attachments/assets/9317424e-674d-4877-a1bd-7e6cb287e254" alt="Pantalla de inicio admin" loading="lazy" width="800">
+<img src="https://github.com/user-attachments/assets/1d013572-cf13-4fa7-bd7a-c60fc9e334eb" alt="Detalles tabla trabajador" loading="lazy" width="800">
 </details>
 
 ### 🔗 Enlaces
@@ -587,6 +1126,10 @@ rdBg2yGGGR
 **Integrantes:** [Rodríguez Martínez José y Rosales Juarez Alexis]
 **GitHub:** https://github.com/jorvsk2007/jorvsk2007.github.io.git
 **LandingPage:** https://jorvsk2007.github.io/
+
+### Formas de acceder
+**Trabajador:** CHOC000101HDFRRR00  **Contraseña:** chocolate123
+**Cliente:** CHOC000101HDFRRR99 **Contraseña:** chocolate123
 
 ### Descripción del Proceso de Normalización
 Mediante nuestro proyecto buscamos implementar una automatizacion para cobros, registro de mercancias y clientes así como trabajadores mediante un portal web para agilizar el tiempo de una venta y reducir el consumo de papel y errores matemáticos.
@@ -648,6 +1191,8 @@ Para solucionar este problema, se desarrolló una plataforma web conectada a una
 * Interfaz amigable y accesible para los usuarios.
 
 ### 🔗 Enlaces
+Admin de prueba:EMP-0003 Contraseña 12345 
+
 Código Fuente: [Repositorio](https://github.com/sofi-14/gitfin)
 Página web: [PáginaWeb](https://sofi-14.github.io/gitfin/)
 
@@ -655,37 +1200,39 @@ Página web: [PáginaWeb](https://sofi-14.github.io/gitfin/)
 ## 😷 Proyecto 15: Sistema de Agendado de citas medicas
 Sistema web para el agendado y gestión de citas medicas en un hospital
 
-#🛠️ Tecnologías
+## 🛠️ Tecnologías
 - Backend: Java, Apache Netbeans
 - Base de Datos: PostgreSQL 
 - Frontend: HTML, CSS (Bootstrap 5) y JavaScript vanilla (Fetch API)
 - Despliegue: Save in cloud
 
-##📢 Funciones Principales
+## 📢 Funciones Principales
 - Permitir a pacientes agendar citas medicas con base en la situación por la que se necesita agendar la cita, la fecha y la hora.
 - Gestión de médicos, situaciones de cita, especialidades y consultorios desde un menú de administrador
 - Visualización de las citas de cada médico desde una sesión personal para cada doctor
 - Escritura de receta médica para cada cita agendada en el sistema
 
-##👨‍👩‍👧‍👦 Integrantes del equipo
+## 👨‍👩‍👧‍👦 Integrantes del equipo
 - Flores Vargas Augusto Hazel
 - Hernandez Zuñiga Andrea Veronica
 - Linares Medina Fernando Agustin
 - Angeles Salinas Daniel Alejandro
 
-<summary>🖼️ Capturas de la pagina</summary>
+<details>
+<summary>🖼️ Capturas de la página</summary>
 <br>
+
 | | |
 |---|---|
-|<img loading="lazy" width="1800" height="724" alt="Captura de pantalla 2026-05-28 192656" src="https://github.com/user-attachments/assets/7e617b84-42e8-49f9-8907-274c34e515bd" />|
-|<img loading="lazy" width="1190" height="736" alt="Captura de pantalla 2026-05-28 193621" src="https://github.com/user-attachments/assets/cfd6fdaf-692a-43a2-83fd-e357257a4117" />|
-|<img loading="lazy" width="1874" height="666" alt="Captura de pantalla 2026-05-28 193641" src="https://github.com/user-attachments/assets/c40df635-46ac-4868-8750-0b76bc2a32ce" />|
+| <img loading="lazy" width="1800" src="https://github.com/user-attachments/assets/7e617b84-42e8-49f9-8907-274c34e515bd" alt="Vista principal de Booksnexus" /><br>**Vista principal de Booksnexus** | |
+| <img loading="lazy" width="1190" src="https://github.com/user-attachments/assets/cfd6fdaf-692a-43a2-83fd-e357257a4117" alt="Perfil de usuario" /><br>**Perfil de usuario** | <img loading="lazy" width="1874" src="https://github.com/user-attachments/assets/c40df635-46ac-4868-8750-0b76bc2a32ce" alt="Timeline de publicaciones" /><br>**Timeline de publicaciones** |
+
 </details>
 
 
-##🔗 Enlaces del Proyecto
-Código Fuente: [Repositorio Github] (https://github.com/warinsanomachine/Sistema-de-citas.git)
-Demo en Vivo: [Sistema Medico] (http://sistemamedico.sp1.br.saveincloud.net.br/main.jsp)
+##  🔗 Enlaces del Proyecto
+Código Fuente: [Repositorio Github] (https://github.com/AugustoHFV/SistemaMedicoHOST)
+Demo en Vivo: [Sistema Medico] (https://sistemamedico-1gmy.onrender.com)
 
 ## Proyecto 16: Payapp+
 Payapp es un sistema gestor de servicios financieros que ayuda al cliente a tener una mejor gestion de sus finanzas, asi como tambien ofrece distintas opciones que se adecuan a las necesidades del cliente.
@@ -765,20 +1312,46 @@ MANTRA es una plataforma web tipo red social enfocada en la publicación, descub
  Organizador: user5@example.com , contraseña: pass5
  Usuario: milan.ewok@gmail.com, contraseña : Julio121086
 ## 🖼️ Capturas de pantalla
-
-🖼️ Ver capturas de pantalla
-
 <details>
-<summary>Ver capturas de pantalla</summary>Landing Page| Feed de eventos
-<a href="https://github.com/user-attachments/assets/42a1b548-17ca-46eb-aeef-fc862a6ce4c0"><img src="https://github.com/user-attachments/assets/42a1b548-17ca-46eb-aeef-fc862a6ce4c0" alt="Landing Page" loading="lazy" width="400"></a>| <a href="https://github.com/user-attachments/assets/6c369928-ee59-4f45-bce8-97b4a5c7edde"><img src="https://github.com/user-attachments/assets/6c369928-ee59-4f45-bce8-97b4a5c7edde" alt="Feed de eventos" loading="lazy" width="400"></a>
+<br>
 
-Dashboard organizador| Comunidad
-<a href="https://github.com/user-attachments/assets/873197d9-57de-4f03-9024-a659d2f122a4"><img src="https://github.com/user-attachments/assets/873197d9-57de-4f03-9024-a659d2f122a4" alt="Dashboard" loading="lazy" width="400"></a>| <a href="https://github.com/user-attachments/assets/6ef71a19-5c95-4625-8077-2fa7774410f2"><img src="https://github.com/user-attachments/assets/6ef71a19-5c95-4625-8077-2fa7774410f2" alt="Comunidad" loading="lazy" width="400"></a>
+<table>
+<tr>
+<td align="center">
+<b>Landing Page</b><br><br>
+<a href="https://github.com/user-attachments/assets/42a1b548-17ca-46eb-aeef-fc862a6ce4c0">
+<img src="https://github.com/user-attachments/assets/42a1b548-17ca-46eb-aeef-fc862a6ce4c0" width="450" loading="lazy">
+</a>
+</td>
 
-Chat
-<a href="https://github.com/user-attachments/assets/be749db0-1f92-4e3f-9688-544ce48c7792"><img src="https://github.com/user-attachments/assets/be749db0-1f92-4e3f-9688-544ce48c7792" alt="Chat" loading="lazy" width="400"></a>
+<td align="center">
+<b>Feed de Eventos</b><br><br>
+<a href="https://github.com/user-attachments/assets/6c369928-ee59-4f45-bce8-97b4a5c7edde">
+<img src="https://github.com/user-attachments/assets/6c369928-ee59-4f45-bce8-97b4a5c7edde" width="450" loading="lazy">
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<b>Dashboard del Organizador</b><br><br>
+<a href="https://github.com/user-attachments/assets/873197d9-57de-4f03-9024-a659d2f122a4">
+<img src="https://github.com/user-attachments/assets/873197d9-57de-4f03-9024-a659d2f122a4" width="450" loading="lazy">
+</a>
+</td>
+
+<td align="center">
+<b>Comunidad</b><br><br>
+<a href="https://github.com/user-attachments/assets/6ef71a19-5c95-4625-8077-2fa7774410f2">
+<img src="https://github.com/user-attachments/assets/6ef71a19-5c95-4625-8077-2fa7774410f2" width="450" loading="lazy">
+</a>
+</td>
+</tr>
+
+</table>
 
 </details>
+
 
 ## 🔗 Enlaces
 
@@ -813,35 +1386,35 @@ Aplicación de laboratorio para administrar integrantes, bailes, presentaciones,
 
 ### Credenciales de prueba
 
-- **Usuario:** `admin@compania.pe`
+- **Usuario:** `ana.ramirez@compania.pe`
 - **Contraseña:** `Password123!`
 
 <details>
 <summary>🟩 Ver capturas de pantalla</summary>
 
-<img loading="lazy" src="https://github.com/user-attachments/assets/363efd33-a4d3-4cf6-97e7-a35b43497171" width="250"/>
-<img loading="lazy" src="https://github.com/user-attachments/assets/c4aee3e2-8a28-4906-9400-feac535b7141" width="250"/>
-<img loading="lazy" src="https://github.com/user-attachments/assets/fc762a02-3e1a-4d5c-9de4-f1178b10ce7b" width="250"/>
-<img loading="lazy" src="https://github.com/user-attachments/assets/af3c6509-8157-4619-9a3a-d8a113c06d70" width="250"/>
-<img loading="lazy" src="https://github.com/user-attachments/assets/7378958f-3876-4075-b04b-90825dcd9b75" width="250"/>
-<img loading="lazy" src="https://github.com/user-attachments/assets/58e7743c-a6a3-4aa7-b168-dd08d3a32c0d" width="250"/>
-<img loading="lazy" src="https://github.com/user-attachments/assets/9a030f63-0a62-4cfc-ae01-8ae3d38098b0" width="250"/>
-<img loading="lazy" src="https://github.com/user-attachments/assets/f0af967b-bfe0-4a75-ae00-80274589655d" width="250"/>
-<img loading="lazy" src="https://github.com/user-attachments/assets/2d9f5ff7-55c1-4589-8e12-a128cab3034b" width="250"/>
-<img loading="lazy" src="https://github.com/user-attachments/assets/b793270e-cb81-4a01-83d4-ff4c52be6100" width="250"/>
-<img loading="lazy" src="https://github.com/user-attachments/assets/11ed698a-0f9a-4503-a2fb-ef28f67efc59" width="250"/>
-<img loading="lazy" src="https://github.com/user-attachments/assets/28d6b6fc-926d-415d-876c-1e707d01428e" width="250"/>
-<img loading="lazy" src="https://github.com/user-attachments/assets/f6883df6-df7a-4239-a2cc-4827b2852a14" width="250"/>
-<img loading="lazy" src="https://github.com/user-attachments/assets/479ee716-06a3-4289-96e6-64cd79370ffc" width="250"/>
-<img loading="lazy" src="https://github.com/user-attachments/assets/a24e48e4-e359-43eb-b05f-0743b73c6fd8" width="250"/>
-<img loading="lazy" src="https://github.com/user-attachments/assets/b8f00a17-7c83-488f-ba9a-4ffb939ca4c6" width="250"/>
-<img loading="lazy" src="https://github.com/user-attachments/assets/4bfd1f76-c667-4ea8-bce0-81dcf075295e" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/363efd33-a4d3-4cf6-97e7-a35b43497171" width="800"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/c4aee3e2-8a28-4906-9400-feac535b7141" width="800"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/fc762a02-3e1a-4d5c-9de4-f1178b10ce7b" width="800"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/af3c6509-8157-4619-9a3a-d8a113c06d70" width="800"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/7378958f-3876-4075-b04b-90825dcd9b75" width="800"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/58e7743c-a6a3-4aa7-b168-dd08d3a32c0d" width="800"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/9a030f63-0a62-4cfc-ae01-8ae3d38098b0" width="800"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/f0af967b-bfe0-4a75-ae00-80274589655d" width="800"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/2d9f5ff7-55c1-4589-8e12-a128cab3034b" width="800"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/b793270e-cb81-4a01-83d4-ff4c52be6100" width="800"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/11ed698a-0f9a-4503-a2fb-ef28f67efc59" width="800"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/28d6b6fc-926d-415d-876c-1e707d01428e" width="800"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/f6883df6-df7a-4239-a2cc-4827b2852a14" width="800"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/479ee716-06a3-4289-96e6-64cd79370ffc" width="800"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/a24e48e4-e359-43eb-b05f-0743b73c6fd8" width="800"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/b8f00a17-7c83-488f-ba9a-4ffb939ca4c6" width="800"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/4bfd1f76-c667-4ea8-bce0-81dcf075295e" width="800"/>
 
 </details>
 
 ### Enlaces
 
-- **Código Fuente:** [Repositorio en GitHub](https://github.com/avril1699/Grupo-Jaltepec-BD/tree/4e0f75d7a63f13784b874eaa521d3e8103a8dce5/Downloads/danza-app)
+- **Código Fuente:** [Repositorio en GitHub](https://github.com/avril1699/Grupo-Jaltepec-BD/tree/main)
 - **Demo en Vivo (Vercel):** [Ver proyecto](https://grupo-jaltepec-bd.vercel.app/)
 
 ## Proyecto 19: ABV Library (Sistema de Gestión de Librería)
@@ -858,18 +1431,37 @@ Sistema web completo de gestión para una librería/biblioteca. Permite administ
 - **Despliegue:** Render (web service + PostgreSQL)
 
 <details>
-<summary>▶ 🖼️ Ver capturas de pantalla</summary>
+<summary>🖼️ Ver capturas de pantalla</summary>
 
-| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/01-catalogo.png" alt="Catálogo de libros" width="800"/> |
-| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/02-modo-oscuro.png" alt="Modo oscuro" width="400"/> |
-| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/03-login.png" alt="Login unificado" width="400"/> |
-| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/04-admin-panel.png" alt="Panel administrador" width="400"/> |
-| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/05-libros-stock.png" alt="Gestión de libros y stock" width="400"/> |
-| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/06-bibliotecario-panel.png" alt="Panel bibliotecario" width="400"/>  
-<img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/07-carrito-ventas.png" alt="Carrito de ventas" width="400"/> |
-| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/08-portal-cliente.png" alt="Portal del cliente" width="400"/> |
-| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/09-facturas.png" alt="Reporte de facturas" width="400"/> |
-| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/10-proveedores.png" alt="Recepción de paquetes" width="800"/> |
+<br>
+
+<p align="center">
+  <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/01-catalogo.png" alt="Catálogo de libros" width="800"/>
+</p>
+
+<p align="center">
+  <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/02-modo-oscuro.png" alt="Modo oscuro" width="400"/>
+  <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/03-login.png" alt="Login unificado" width="400"/>
+</p>
+
+<p align="center">
+  <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/04-admin-panel.png" alt="Panel administrador" width="400"/>
+  <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/05-libros-stock.png" alt="Gestión de libros y stock" width="400"/>
+</p>
+
+<p align="center">
+  <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/06-bibliotecario-panel.png" alt="Panel bibliotecario" width="400"/>
+  <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/07-carrito-ventas.png" alt="Carrito de ventas" width="400"/>
+</p>
+
+<p align="center">
+  <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/08-portal-cliente.png" alt="Portal del cliente" width="400"/>
+  <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/09-facturas.png" alt="Reporte de facturas" width="400"/>
+</p>
+
+<p align="center">
+  <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/10-proveedores.png" alt="Recepción de paquetes" width="800"/>
+</p>
 
 </details>
 
@@ -1147,7 +1739,7 @@ http://127.0.0.1:8000
 
 ## Carniceria la Ideal 
 
-**Estudiantes:** Alejandro Aguilera Ceballos., José Ángel Malvaez Flores, Gomez Belmont Wendy Nathaly 
+**Estudiantes:** Alejandro Aguilera Ceballos, José Ángel Malvaez Flores, Gomez Belmont Wendy Nathaly 
 
 **Asignatura:** Bases de Datos 2026-2  
 **URL del sistema:** https://carnicerialaidealescom1.page.gd/CARNES/Login.html
@@ -1278,25 +1870,25 @@ Sistema web de registro y control de recepción de productos para la empresa **C
 
 **Login**
 
-<img src="screenshots/login.png" alt="Pantalla de inicio de sesión" loading="lazy" width="800">
+<img src="https://github.com/aleaguiballos-cell/ProyectoBD2/blob/main/screenshot/login.png  " alt="Pantalla de inicio de sesión" loading="lazy" width="800">
 
 ---
 
 **Registro de usuario**
 
-<img src="screenshots/registro.png" alt="Formulario de registro de nuevos usuarios" loading="lazy" width="800">
+<img src="https://github.com/aleaguiballos-cell/ProyectoBD2/blob/main/screenshot/Formulario.png" alt="Formulario de registro de nuevos usuarios" loading="lazy" width="800">
 
 ---
 
 **Formulario de recepción**
 
-<img src="screenshots/formulario.png" alt="Formulario de recepción de productos" loading="lazy" width="800">
+<img src="https://github.com/aleaguiballos-cell/ProyectoBD2/blob/main/screenshot/registro.png" alt="Formulario de recepción de productos" loading="lazy" width="800">
 
 ---
 
 **Panel de administración**
 
-<img src="https://github.com/aleaguiballos-cell/ProyectoBD2/blob/main/screenshot/Administrador.png" alt="Panel de administración" loading="lazy" width="800">
+<img src="https://github.com/aleaguiballos-cell/ProyectoBD2/blob/main/screenshot/aministrador" alt="Panel de administración" loading="lazy" width="800">
 
 ---
 
@@ -1307,3 +1899,345 @@ Sistema web de registro y control de recepción de productos para la empresa **C
 | 🌐 Sistema en línea | [Abrir sistema](https://carnicerialaidealescom1.page.gd/CARNES/Login.html) |
 | 💻 Código fuente | [Ver en GitHub](https://github.com/aleaguiballos-cell/ProyectoBD2) |
 | 🗄️ Base de datos | [infinityfree] (https://php-myadmin.net/db_structure.php?db=if0_41904449_carniceria)  |
+
+
+## Proyecto 50: Barber Cerdas (Sistema de gestión de citas)
+Sistema web de reservas para la Academia De Barbería The Hipster (Lindavista, CDMX). Los clientes agendan citas en línea, los barberos gestionan su jornada desde un dashboard en tiempo real y el administrador orquesta walk-ins y reservas telefónicas, unificando los tres canales (online, telefónica y walk-in) en una sola entidad de cita.
+
+### 🛠️ Tecnologías
+* *Frontend:* HTML5, CSS3 y JavaScript Vanilla (sin frameworks ni bundlers)
+* *Backend / Base de Datos:* Supabase (PostgreSQL + Auth + REST API) con RLS, RPCs, triggers y vistas
+* *Realtime:* Supabase Realtime (WebSocket) con fallback por polling
+* *Serverless / Email:* Vercel Functions (Node.js) + Resend
+* *Despliegue:* Vercel (CI continuo desde GitHub)
+
+<details>
+<summary>🖼️ Ver capturas de pantalla</summary>
+
+| | |
+|---|---|
+| <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/01-landing.png" alt="Página principal de Academia The Hipster" width="400"/> | <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/02-servicios.png" alt="Catálogo de servicios" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/03-equipo.png" alt="Equipo de barberos" width="400"/> | <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/04-ubicacion.png" alt="Ubicación y sucursales" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/05-login.png" alt="Inicio de sesión y registro" width="400"/> | <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/06-agendar.png" alt="Wizard para agendar cita" width="400"/> |
+</details>
+
+### ✨ Funcionalidades principales
+* Reserva de citas en línea (sucursal → servicios → barbero/horario → datos)
+* Confirmación de citas por email con token de un solo uso que expira en 10 minutos
+* Dashboard de administración con semáforo de barberos en tiempo real
+* Registro de walk-ins desde un kiosko en mostrador y gestión de reservas telefónicas
+* Identidad portable: un cliente anónimo que se registra conserva su historial
+* Anti-spam: una reserva por teléfono al día por sucursal, sin lockout
+* Arquitectura lista para múltiples sucursales
+* Cuenta de cliente con historial y cancelación de citas (/mi-cuenta)
+* Seguridad mediante Row Level Security activa en todas las tablas
+
+### 🔗 Enlaces
+Código Fuente: [Repositorio del proyecto](https://github.com/StrlgE26/Barberia)
+Demo en Vivo: [Barber Cerdas](https://www.koddesolutions.com/)
+
+## 🥩 Proyecto 44: Carnicería Camacho (Sistema de Gestión de Carnicería)
+
+Plataforma web desarrollada para la administración integral de una carnicería, permitiendo gestionar productos, clientes, proveedores y ventas mediante una interfaz conectada a una base de datos en la nube. El sistema facilita la organización de la información y automatiza procesos como el cálculo de impuestos y totales de venta.
+
+## 🛠️ Tecnologías
+
+* **Base de Datos:** PostgreSQL (Supabase)
+* **Frontend:** HTML, CSS y JavaScript Vanilla
+* **Backend:** Supabase API REST y funciones SQL
+* **Seguridad:** Row Level Security (RLS) y Policies
+* **Despliegue:** GitHub Pages
+
+## ✨ Funcionalidades
+
+* Gestión de productos (altas, consultas, modificaciones y bajas)
+* Gestión de clientes
+* Gestión de proveedores
+* Registro y administración de ventas
+* Operaciones CRUD completas
+* Cálculo automático del impuesto (10%)
+* Cálculo automático del total de venta
+* Conexión en tiempo real con Supabase
+* Interfaz web responsive
+* Control de acceso mediante roles (Administrador y Profesor)
+* Visualización de datos almacenados en la base de datos
+* Integración mediante API REST proporcionada por Supabase
+
+###  Verifica que funciona
+
+La aplicación se abrirá en tu navegador y mostrará la página principal de Carnicería Camacho conectada a Supabase.
+
+https://ivanrvillegas10-dev.github.io/carniceria/
+
+## 🔗 Tablas principales
+
+### Productos
+
+* idproducto
+* descripcion
+* costo
+* imagen
+* idproveedor
+
+### Clientes
+
+* idcliente
+* nombre
+* telefono
+* direccion
+
+### Proveedores
+
+* idproveedor
+* descripcion
+* tipo
+
+### Ventas
+
+* idventa
+* fecha
+* noventa
+* idcliente
+* subtotal
+* impuesto
+* total
+
+## 🔒 Seguridad
+
+* Uso de anon public key de Supabase
+* Protección mediante Row Level Security (RLS)
+* Policies para controlar acceso a las tablas
+* Roles de acceso:
+
+  * Administrador (control total)
+  * Profesor (solo lectura)
+
+👥 Usuarios de acceso
+
+* Usuario: **profesor**
+* Contraseña: **chocolate**
+* Permisos:
+
+  * Consultar productos, clientes, proveedores y ventas.
+  * Visualizar el funcionamiento general del sistema.
+  * No puede agregar, editar ni eliminar información.
+
+Esta implementación permite demostrar el funcionamiento del sistema sin comprometer la integridad de los datos almacenados en la base de datos.
+
+## 🌐 Demo
+
+**Página Web:**
+https://ivanrvillegas10-dev.github.io/carniceria/
+
+**Repositorio GitHub:**
+https://github.com/ivanrvillegas10-dev/carniceria
+
+Repositorio Central:
+
+https://github.com/gabrielhuav/DB-Coursework-2026-2
+
+IMAGENES 
+
+<img src="https://github.com/user-attachments/assets/35ec3b13-3e45-430f-b918-a2746ce77ecf" alt="Imagen 1" width="800"/>
+
+<img src="https://github.com/user-attachments/assets/288cf883-9485-49e2-8df8-5de2ba3c2fbd" alt="Imagen 2" width="800"/>
+
+<img src="https://github.com/user-attachments/assets/cf3d4ac4-8aa1-4345-84a8-298096fb80af" alt="Imagen 3" width="800"/>
+
+# Proyecto 33: BiblioTech (Gestión de Biblioteca ESCOM)
+
+Plataforma web enfocada en la comunidad universitaria (alumnos y profesores), diseñada para facilitar la administración del catálogo de libros. Permite a los usuarios explorar millones de ejemplares en la red global mediante una API externa y gestionar solicitudes de préstamos físicos del acervo local.
+
+### 🛠️ Tecnologías Implementadas
+
+* **Base de Datos / Backend:** PostgreSQL (Supabase) y Supabase Auth
+* **Consumo de Datos:** Open Library API REST
+* **Frontend:** HTML5, CSS3 avanzado (Flexbox/Grid, variables CSS) y JavaScript vanilla (Fetch API, DOM dinámico)
+* **Despliegue:** GitHub Pages
+
+<details>
+<summary>🖼️ Ver capturas de pantalla</summary>
+| | |
+|:---:|:---:|
+| <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Page.png" alt="Vista principal de la Pagina - Bibliotech" width="400"/> | <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Login.png" alt="Login - BiblioTech" width="400"/> |
+| <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Register.png" alt="Registro - BiblioTech" width="400"/> | <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Preview.png" alt="Vista Previa de la Pagina de Libro - BiblioTech" width="400"/> |
+| <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Section.png" alt="Vista de la Seccion - BiblioTech" width="400"/> | |
+
+</details>
+
+### ✨ Funcionalidades principales
+
+* Registro e inicio de sesión seguro y validado para alumnos y profesores (utilizando boleta o número de empleado).
+* Búsqueda y exploración de libros globales y en tendencia (Ciencias e Ingeniería) en tiempo real.
+* Visualización dedicada del acervo físico local disponible en la biblioteca.
+* Sistema interactivo para la solicitud de préstamos de ejemplares físicos con cálculo automático de fechas de devolución (7 días).
+* Paginación dinámica y renderizado de tarjetas de catálogo sin recargar la página.
+* Interfaz completamente responsiva con soporte integrado para Modo Claro / Modo Oscuro.
+* Sistema de internacionalización (i18n) para cambiar el idioma de la interfaz (Español, Inglés, Francés).
+
+### 🔗 Enlaces
+
+* **Código Fuente:** [Repositorio en GitHub](https://github.com/xsuik33/xsuik33.github.io)
+* **Demo en Vivo:** [BiblioTech Web](https://xsuik33.github.io)
+
+
+
+# 🔧 Ferretería Tico — Sistema Web de Inventario
+
+## 👥 Integrantes
+
+* Navarrete Hernández Laura Itzel
+* Patiño Nicasio Diego
+
+---
+
+# 📌 Descripción
+
+*Ferretería Tico* es un sistema web de gestión de inventario desarrollado para administrar productos de una ferretería de manera rápida y sencilla.
+
+El sistema permite:
+
+* Registrar productos
+* Editar información
+* Eliminar registros
+* Consultar inventario
+* Buscar y filtrar productos
+* Controlar stock bajo
+
+La aplicación se conecta a una base de datos PostgreSQL alojada en *Supabase* utilizando la API REST automática proporcionada por la plataforma.
+
+El proyecto fue desplegado utilizando *GitHub Pages*.
+
+---
+
+# 🌐 Enlaces del Proyecto
+
+## 🔗 GitHub Pages
+
+https://itzelnavarrete.github.io/ferreteria-TICO/index.html
+
+## 🔗 Repositorio GitHub
+
+https://github.com/itzelnavarrete/ferreteria-TICO
+
+---
+
+## Página principal
+
+<img src="https://github.com/user-attachments/assets/e85709c9-fa1c-40fe-8851-922d6c3d2d75" loading="lazy" width="900">
+
+## Inventario de productos
+
+<img src="https://github.com/user-attachments/assets/e0353579-6c93-48d3-9808-852378772e38" loading="lazy" width="900">
+
+## Formulario de agregar producto
+
+<img src="https://github.com/user-attachments/assets/edf6f49b-4463-4dcb-a9aa-d3c264ee403d" loading="lazy" width="900">
+
+## Ventas
+
+<img src="https://github.com/user-attachments/assets/d69f4142-6dc7-4d0a-9747-6969b6e60f3d" loading="lazy" width="900">
+
+---
+
+# ⚙️ Funcionalidades
+
+* ✅ Visualización completa del inventario
+* ✅ Estadísticas automáticas
+* ✅ Búsqueda por nombre o marca
+* ✅ Filtro por categorías
+* ✅ Registro de productos
+* ✅ Edición de productos
+* ✅ Eliminación de registros
+* ✅ Alerta visual de stock bajo
+* ✅ Modo demo sin conexión a base de datos
+* ✅ Interfaz responsiva y moderna
+
+---
+
+# 🧱 Estructura del Proyecto
+
+bash
+ferreteria-tico/
+├── index.html
+├── landing.html
+├── style.css
+├── script.js
+├── supabase_setup.sql
+├── img/
+│   ├── captura_inicio.png
+│   ├── captura_inventario.png
+│   ├── captura_formulario.png
+│   └── captura_estadisticas.png
+└── README.md
+
+
+---
+
+# 🛠️ Stack Tecnológico
+
+| Capa          | Tecnología                      |
+| ------------- | ------------------------------- |
+| Frontend      | HTML5 · CSS3 · JavaScript ES6+  |
+| Base de datos | PostgreSQL (Supabase)           |
+| Hosting       | GitHub Pages                    |
+| API           | Supabase REST API               |
+
+---
+
+# 🗄️ Base de Datos
+
+La base de datos fue diseñada utilizando PostgreSQL en Supabase.
+
+Incluye:
+
+* Tabla de productos
+* Categorías
+* Control de stock
+* Precios
+* Marcas
+* CRUD completo
+
+
+
+# 📊 Características del Sistema
+
+El sistema fue desarrollado pensando en pequeños negocios de ferretería que necesitan un control rápido y eficiente de productos.
+
+Permite:
+
+* Mejor administración del inventario
+* Evitar pérdidas por falta de stock
+* Organización por categorías
+* Gestión sencilla desde navegador
+
+---
+
+# 📚 Aprendizajes del Proyecto
+
+Durante el desarrollo se aplicaron conocimientos de:
+
+* Bases de datos relacionales
+* CRUD
+* Integración frontend-backend
+* APIs REST
+* Git y GitHub
+* GitHub Pages
+* PostgreSQL
+* Diseño web responsivo
+
+# 🍫Admin de chocolate🍫
+Usuario: ferreteriatico@gmail.com
+Contraseña: ferreteriatico
+
+## Entidad relacion
+
+<img src="https://github.com/user-attachments/assets/6b1470cf-0227-430f-896c-d041b472eec4" loading="lazy" width="900">
+
+## Modelo relacional
+
+<img src="https://github.com/user-attachments/assets/ee1a588b-5145-4a02-850c-cb5749d974d3" loading="lazy" width="900">
+
+## Modelo relacional extendido 
+
+<img src="https://github.com/user-attachments/assets/32c3280e-5b39-4308-bb83-3c7962a6eee4" loading="lazy" width="900">
