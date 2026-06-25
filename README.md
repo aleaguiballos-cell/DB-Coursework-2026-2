@@ -198,6 +198,9 @@ El sistema está dividido en secciones interactivas que se actualizan de forma a
 Código Fuente: [Repositorio](https://github.com/aeiou520814-del/abc)
 Demo en Vivo: [Página Web](https://aeiou520814-del.github.io/abc/)
 
+Código Fuente página sin base de datos: [Repositorio](https://github.com/ivangutg/prueba)
+Demo en Vivo de página sin base de datos: [Página Web](https://ivangutg.github.io/prueba/)
+
 ---
 
 ## Proyecto 5: Sistema de Información — Dirección de Obras Públicas de Temascaltepec
@@ -950,41 +953,96 @@ Contraseña: Admin1234
 --- 
 
 ## Proyecto 8: Scynara - Sistema de Gestión para Comercio Minorista
-Sistema web full-stack para la gestión de una tienda o cadena de sucursales, con control de inventario, proveedores, productos, ventas, clientes y usuarios/empleados.
 
-### 🛠️ Tecnologías
-* Frontend: React 19, Vite, React Router DOM, Axios
-* Backend: Node.js, Express 5
-* Base de datos: MySQL 
-* Autenticación: JWT, hashing con argon2
-* Validación: Zod
-* Despliegue: Railway y Vercel
+**Scynara** es un sistema web full-stack diseñado para la gestión integral de una tienda o cadena de sucursales.  
+Permite administrar inventario, productos, proveedores, ventas, clientes y usuarios/empleados desde una plataforma centralizada.
 
-### ✨ Funcionalidades principales
+---
 
-* Autenticación y gestión de usuarios
-* Gestión de proveedores
-* Gestión de productos / inventario
-* Gestión de ventas
+### Enlaces del proyecto
+
+| Recurso | Enlace |
+|---|---|
+| Frontend | [Repositorio Frontend](https://github.com/scynara09-hue/Scynara-Frontend) |
+| Backend | [Repositorio Backend](https://github.com/scynara09-hue/Scynara-Backend) |
+| Demo en vivo | [Ver aplicación](https://scynara-frontend.vercel.app/) |
+| Página estática | [Ver página estática](https://localstoragescynara-production.up.railway.app/) |
+
+---
+
+### Tecnologías utilizadas
+
+| Área | Tecnologías |
+|---|---|
+| Frontend | React 19, Vite, React Router DOM, Axios |
+| Backend | Node.js, Express 5 |
+| Base de datos | MySQL |
+| Autenticación | JWT, hashing con Argon2 |
+| Validación | Zod |
+| Despliegue | Railway y Vercel |
+
+---
+
+### Funcionalidades principales
+
+- Autenticación y gestión de usuarios.
+- Gestión de proveedores.
+- Gestión de productos e inventario.
+- Gestión de ventas.
+- Control de clientes y empleados.
+- Administración de sucursales y operaciones comerciales.
+
+---
+
+### Capturas de pantalla
 
 <details>
-<summary>🖼️ Ver capturas de pantalla</summary>
-<img loading="lazy" width="1289" height="815" alt="principal" src="https://github.com/user-attachments/assets/4e0a99b5-fb40-44ab-9d35-57668798aaf8" />
-<img loading="lazy" width="1289" height="815" alt="servicios" src="https://github.com/user-attachments/assets/4d0ae50e-22b0-4823-833f-0e30a2db2174" />
+<summary>Ver capturas del sistema</summary>
+
+<br>
+
+<img loading="lazy" width="100%" alt="Pantalla principal de Scynara" src="https://github.com/user-attachments/assets/10566f3a-1c23-44ff-bb3b-c632f3267792" />
+
+<br><br>
+
+<img loading="lazy" width="100%" alt="Panel de gestión de Administrador" src="https://github.com/user-attachments/assets/2fcb94ea-742c-4cb6-a589-be5cbca2bbbd" />
+
+<br><br>
+
+<img loading="lazy" width="100%" alt="Vista de inventario de Invitado" src="https://github.com/user-attachments/assets/91ae629c-61a1-42f1-aca7-82372e0dc341" />
+
+<br><br>
+
+<img loading="lazy" width="100%" alt="Módulo de productos de Dueño de tienda" src="https://github.com/user-attachments/assets/b3444071-0fb1-4183-bcf0-6ebeadfcd74b" />
+
+<br><br>
+
+<img loading="lazy" width="100%" alt="Módulo de proveedores de Administrador" src="https://github.com/user-attachments/assets/6dd6a8bd-4b23-4684-bcdb-a99e1dd05b78" />
+
+<br><br>
+
+<img loading="lazy" width="100%" alt="Módulo de ventas de Invitado" src="https://github.com/user-attachments/assets/df7e9c01-173f-4146-8424-b1f5ef8fa2de" />
+
+<br><br>
+
+<img loading="lazy" width="100%" alt="Vista administrativa de Dueño de tienda" src="https://github.com/user-attachments/assets/bee293a1-b13d-4704-a8df-097e9eb7f45b" />
+
 </details>
 
-Código Fuente: Frontend [Repositorio](https://github.com/scynara09-hue/Scynara-Frontend)
-Código Fuente: Backend [Repositorio](https://github.com/scynara09-hue/Scynara-Backend)
-Demo en Vivo: [Página Web](https://scynara-frontend.vercel.app/)
-### 🔑 Credenciales de Acceso (Para Evaluación)
 
-- **Correo:** admin@scynara.com
-- **Contraseña:** aAdmin1234!
 
-> ⚠️ Este usuario es de solo lectura. No tiene privilegios para eliminar ni modificar datos, con el fin de no dañar el proyecto en producción.
+---
 
---- 
-  
+### Credenciales de acceso para evaluación
+
+| Campo | Dato |
+|---|---|
+| Correo | `invitado@scynara.com` |
+| Contraseña | `Invitado1234!` |
+
+> Este usuario es de solo lectura. No tiene privilegios para eliminar ni modificar datos, con el fin de proteger la información del proyecto en producción.
+
+---
 ## Proyecto 9: Data Warehouse CDMX - Consumo de Agua y Clima
 Proyecto de Data Warehouse para analizar la correlación entre el consumo de agua y las condiciones climáticas en la Ciudad de México durante 2019.
 
@@ -1089,6 +1147,10 @@ Este proyecto consiste en un sitio web de comercio electrónico para una refacci
 ## 🔗 Enlaces de Interés
 * [Repositorio en GitHub](https://github.com/Nahum1802/Refaccionaria-Leo)
 * [Sitio Web en Vivo](https://nahum1802.github.io/Refaccionaria-Leo/)
+
+## Cuentas de Acceso ##
+* **Correo:** tester1@test.com
+* **COntraseña:** tester1234
 
 ## Proyecto 12: Distribuidora de Abarrotes Kafra
 
@@ -1233,6 +1295,9 @@ Sistema web para el agendado y gestión de citas medicas en un hospital
 ##  🔗 Enlaces del Proyecto
 Código Fuente: [Repositorio Github] (https://github.com/AugustoHFV/SistemaMedicoHOST)
 Demo en Vivo: [Sistema Medico] (https://sistemamedico-1gmy.onrender.com)
+Paginta Estatica: [Link de la pagina]  (https://warinsanomachine.github.io/sistema-medico-estatico/)
+Sesion de Administrador de la pagina estatica: admin@medico.com || Contraseña: Amdhn123
+Sesion de Medico de la pagina estatica: daniel@medico.com || Daniel123 
 
 ## Proyecto 16: Payapp+
 Payapp es un sistema gestor de servicios financieros que ayuda al cliente a tener una mejor gestion de sus finanzas, asi como tambien ofrece distintas opciones que se adecuan a las necesidades del cliente.
@@ -1416,7 +1481,12 @@ Aplicación de laboratorio para administrar integrantes, bailes, presentaciones,
 
 - **Código Fuente:** [Repositorio en GitHub](https://github.com/avril1699/Grupo-Jaltepec-BD/tree/main)
 - **Demo en Vivo (Vercel):** [Ver proyecto](https://grupo-jaltepec-bd.vercel.app/)
+- **Página Estática:** [Ver página estática](https://paginaestaticagj.vercel.app/)
 
+### Credenciales de prueba para página estática
+
+- **Usuario:** `integrante@danza.mx`
+- **Contraseña:** `pass123`
 ## Proyecto 19: ABV Library (Sistema de Gestión de Librería)
 
 Sistema web completo de gestión para una librería/biblioteca. Permite administrar libros, empleados, clientes, proveedores, ventas, préstamos y donaciones desde una interfaz moderna tipo marketplace con tres roles de acceso.
